@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device width, initial-scale=1.0">
+    <title>RaceDay|F1 Companion</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+
+<body>
+    <header>
+        <div class="logo">
+            RaceDay
+        </div> 
+         
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#calendar">Calendar</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="hero">
+            <p class="subtitle">FORMULA 1 COMPANION</p>
+            <h1>RaceDay</h1>
+            <p>
+                Everything you need to keep track of the F1 season.
+            </p>
+            <div class="next-race">
+                <p>Next Race</p>
+                <h2>Singapore Grand Prix</h2>
+                <p>October 4, 2026</p>
+                <div id="countdown">
+                    Loading countdown...
+                </div>
+            </div>
+        </section>
+
+        <section id="calendar">
+            <h2>Race Calendar</h2>
+            <P>
+                Keep track of upcoming Formula 1 races.
+            </P>
+
+            <div class="race-grid">
+                <article class="race-card">
+                    <p>Round 18</p>
+                    <h3>Singapore Grand prix</h3>
+                    <p>October 4, 2026</p>
+                     
+                    <button onclick="showRaceInfo('Singapore Grand Prix')">
+                        Race Info
+                    </button>
+                </article>
+
+                <article class="race-card">
+                    <p>Round 19</p>
+                    <h3>United States Grand Prix</h3>
+                    <p>October 18, 2026</p>
+
+                    <button onclick="showRaceInfo('United States Grand Prix')">
+                        Race Info
+                    </button>
+                </article>
+
+                <article class="race-card">
+                    <p>Round 20</p>
+                    <h3>Mexico city Grand prix</h3>
+                    <p>October 25, 2026</p>
+                    <button onclick="showRaceInfo('Mexico City Grand Prix')">
+                        Race Info
+                </article>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About RaceDay</h2>
+            <p>
+                RaceDay is a Formula 1 companion designed to help fans  
+                follow upcoming races, explore the calendar, and keep
+                important race information in one place.
+    
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>RaceDay 2026</p>
+    </footer>
+    <!-- Race Info Modal -->
+<div id="raceModal" class="modal">
+
+    <div class="modal-content">
+
+        <button class="close-button" onclick="closeRaceInfo()">
+            ×
+        </button>
+
+        <h2 id="modalRaceName">Race Name</h2>
+
+        <p id="modalRaceDetails">
+            Race information
+        </p>
+
+    </div>
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
