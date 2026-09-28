@@ -31,3 +31,20 @@ https://piyushoutthere-spec.github.io/Raceday/
 - More detailed race statistics
 - Integration with a reliable live Formula 1 data source
 - Improved accessibility features
+## Screenshots
+<img width="1896" height="910" alt="image" src="https://github.com/user-attachments/assets/8ce10c6b-2dac-4210-b5e3-929c882835fc" />
+<img width="1897" height="902" alt="image" src="https://github.com/user-attachments/assets/1ab1611b-48db-4064-b36f-8cb686d46ac3" />
+
+## License
+- RaceDay was created as a personal learning and development project.
+## Help
+- If websites crashes please reload the web browser.
+# Getting started with
+### Dependency
+- Windows 10 or 11 (any other are also okay!)
+### Installing
+- Can be easily accessed with link https://piyushoutthere-spec.github.io/Raceday/
+- No need to download or modify any file
+### Executing program
+- The program executes as soon as you click the previous link
+
